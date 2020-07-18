@@ -1,0 +1,13 @@
+/* div > h1 h2 {
+    color: darkgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+div>p {line-height: 25px;}
+body{
+    background-color: red;
+} */
+h2 {
+    background-color: red;
+}
