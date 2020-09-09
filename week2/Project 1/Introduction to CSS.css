@@ -1,11 +1,5 @@
 div>h1 {
     color: darkgreen;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-}
-
-#h2 {
-    text-align: center;
 }
 
 img {
@@ -13,14 +7,19 @@ img {
     padding-right: 20px;
 }
 
-.underline {
+a {
     text-decoration: none;
 }
 
-.underline:hover {
+a:hover {
     text-decoration: underline;
 }
 
-.footer {
+.font-family {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#footer {
     text-transform: uppercase;
 }
