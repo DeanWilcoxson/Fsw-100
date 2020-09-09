@@ -1,0 +1,26 @@
+div>h1 {
+    color: darkgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#h2 {
+    text-align: center;
+}
+
+img {
+    float: left;
+    padding-right: 20px;
+}
+
+.underline {
+    text-decoration: none;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    text-transform: uppercase;
+}
