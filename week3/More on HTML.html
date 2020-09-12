@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <head>
+    <meta charsret="UTF-8">
     <title>HTML Semantics</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -10,31 +11,75 @@
         <h1>More on HTML</h1>
     </header>
     <nav>
-        <a href="./About.html">About Page</a>
+        <a id="nav" href="./About.html">About Page</a>
         <!-- Remove the <p> and add links -->
     </nav>
     <main>
-        <h2>Main Section</h2>
-        <table>
-            <thead>
-                <th>IQ</th>
-                <th>EQ</th>
-                <th>Age</th>
-            </thead>
-            <tbody>
-
-            </tbody>
-        </table>
+        <Section>
+            <table style="width:100%">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>EQ</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dean</td>
+                        <td>9489</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>Sam</td>
+                        <td>9268</td>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <td>Kevin</td>
+                        <td>5775</td>
+                        <td>26</td>
+                    </tr>
+                </tbody>
+            </table>
+            <figcaption> The above table shows three students EQ and their age</figcaption>
+        </section>
         <div>
-            <h3>Article</h3>
+            <article>
+                <h3>Emotional Intelligence</h3>
+                <p>According to <a href="https://www.google.com/search?q=emotional+intelligence&rlz=1C1PRFI_enUS744US744&oq=Emotional+intell&aqs=chrome.0.0j69i57j0l2j46j0l3.6992j0j15&sourceid=chrome&ie=UTF-8">Google,</a> Emotional Intelligence is the capacity
+                    to be aware of, control, and express one's emotions, and to handle interpersonal relationships judiciously and empathetically.</p>
+                <p>
+                    With that in mind, and with the understanding that the more you experience the more opportunities you'll have to further your empathetic skills. Its safe to say that Emotional intelligence is a learned behaviour and can be developed.
+                </p>
+                <p>
+                    I personally believe that as you get older, the experiences you have and the people you meet help you develop emotional intelligence naturally. That is why people say "wisdom comes with age". According to an article on <a href="https://www.inc.com/jessica-stillman/this-is-age-when-your-eq-peaks-according-to-science.html">Inc.com</a>                    by <mark>Jessica Stillman</mark>, studies have shown, emotional intelligence reaches its peak at around 60 years old.
+                </p>
+            </article>
         </div>
         <div>
-            <h3>Aside</h3>
+            <h3>More in depth</h3>
+            <aside>
+                Psychologist <mark>Daniel Goleman</mark> Ph.D., author of the New York Times bestseller <em>Emotional
+                    Intelligence
+                    and Social Intelligence: The New Science of Human Relationships</em>, proposed that there are four competencies and skills that are the cornerstones of Emotional Intelligence:
+                <ul>
+                    <li>Self-Awareness</li>
+                    <li>Self-Management</li>
+                    <li>Social-Awareness</li>
+                    <li>Relationship Management</li>
+                </ul>
+                <p>These four competencies and skills make up the Emotional Intelligence Appraisal, which is the measurement tool to figure out your EQ (Emotional Intelligence) </p>
+            </aside>
+
         </div>
     </main>
     <footer>
-        <h3>Footer</h3>
-        <p>&copy; 2019 Webdev Student</p>
+        <h3>Figure Out Your EQ</h3>
+        <p>
+            Click <a href="https://globalleadershipfoundation.com/geit/eitest.html">here</a> to take the test and find out your EQ!
+        </p>
+        <p>&copy; 2020 Webdev Student</p>
     </footer>
 </body>
 
