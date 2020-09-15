@@ -1,0 +1,28 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+nav {
+    position: fixed;
+    max-width: 50px;
+    border-style: outset;
+    border-color: lightskyblue;
+    border-width: 5px;
+    padding: 25px;
+    margin: 10px;
+}
+
+.box-content {
+    position: relative;
+    left: 30px;
+    top: 10px;
+    border-style: inset;
+    border-color: lightsteelblue;
+    border-width: 5px;
+    padding: 25px;
+    margin: 100px;
+}
+
+h1 h2 {
+    text-align: center;
+}
