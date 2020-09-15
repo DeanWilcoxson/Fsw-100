@@ -5,6 +5,7 @@
 h1 {
     text-align: center;
     font-size: 100px;
+    background-color: lightblue;
 }
 
 h2 {
@@ -55,6 +56,7 @@ body {
     height: 400px;
     box-shadow: 20px 25px lightsteelblue;
     overflow: hidden;
+    background-color: lightblue;
 }
 
 #top {
