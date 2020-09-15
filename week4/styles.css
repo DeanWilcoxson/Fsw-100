@@ -7,10 +7,6 @@ h1 {
     font-size: 100px;
 }
 
-#top {
-    text-decoration: cornflowerblue;
-}
-
 h2 {
     text-align: center;
 }
@@ -18,30 +14,13 @@ h2 {
 nav {
     position: fixed;
     max-width: 50px;
+    height: 100px;
     border-style: outset;
     border-color: lightskyblue;
     border-width: 5px;
     padding: 25px;
     margin: 10px;
-    display: inline;
-}
-
-.box-content {
-    position: relative;
-    left: 30px;
-    top: 100px;
-    border-style: inset;
-    border-color: lightsteelblue;
-    border-width: 5px;
-    padding: 25px;
-    margin: 100px;
-    height: 400px;
-    box-shadow: 20px 10px lightslategrey;
-    overflow: hidden;
-}
-
-#blog1 {
-    text-decoration: cornflowerblue;
+    display: block;
 }
 
 img {
@@ -49,3 +28,54 @@ img {
     float: left;
     padding: 30px;
 }
+
+footer {
+    max-width: 50px;
+    height: 50px;
+    border-style: outset;
+    border-color: lightskyblue;
+    border-width: 5px;
+    padding: 25px;
+    display: block;
+}
+
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQpI_rWUwT5rFtugZckTOud0ZI49WP2HmbQxg&usqp=CAU)
+}
+
+.box-content {
+    position: relative;
+    left: 30px;
+    top: 100px;
+    border-style: inset;
+    border-color: lightskyblue;
+    border-width: 10px;
+    padding: 25px;
+    margin: 100px;
+    height: 400px;
+    box-shadow: 20px 25px lightsteelblue;
+    overflow: hidden;
+}
+
+#top {
+    text-decoration: cornflowerblue;
+    border-style: inset;
+    border-color: lightskyblue;
+    border-width: 10px;
+    padding: 25px;
+    margin: 100px;
+    height: 400px;
+    box-shadow: 20px 25px lightsteelblue;
+}
+
+#blog1 {
+    text-decoration: cornflowerblue;
+}
+
+#blog2 {}
+
+#blog3 {}
+
+#blog4 {}
+
+#blog5 {}
