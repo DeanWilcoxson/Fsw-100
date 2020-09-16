@@ -10,18 +10,19 @@ h1 {
 
 h2 {
     text-align: center;
-}
-
-nav {
-    position: fixed;
-    max-width: 50px;
-    height: 100px;
-    border-style: outset;
+    font-size: 100px;
+    background-color: lightblue;
+    position: relative;
+    left: 30px;
+    top: 100px;
+    border-style: inset;
     border-color: lightskyblue;
-    border-width: 5px;
+    border-width: 10px;
     padding: 25px;
-    margin: 10px;
-    display: block;
+    margin: 100px;
+    height: 250px;
+    box-shadow: 20px 25px lightsteelblue;
+    overflow: hidden;
 }
 
 img {
@@ -30,18 +31,35 @@ img {
     padding: 30px;
 }
 
-footer {
-    max-width: 50px;
-    height: 50px;
-    border-style: outset;
-    border-color: lightskyblue;
-    border-width: 5px;
-    padding: 25px;
-    display: block;
-}
-
 body {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQpI_rWUwT5rFtugZckTOud0ZI49WP2HmbQxg&usqp=CAU)
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightskyblue;
+}
+
+li {
+    float: left;
+    border-width: 5px;
+    border-style: inset;
+    border-color: lightsteelblue;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
 }
 
 .box-content {
@@ -70,9 +88,8 @@ body {
     box-shadow: 20px 25px lightsteelblue;
 }
 
-#blog1 {
-    text-decoration: cornflowerblue;
-}
+
+/* #blog1 {text-decoration: cornflowerblue;}
 
 #blog2 {}
 
@@ -81,3 +98,22 @@ body {
 #blog4 {}
 
 #blog5 {}
+
+footer {
+    max-width: 50px;
+    height: 50px;
+    border-style: outset;
+    border-color: lightskyblue;
+    border-width: 5px;
+    padding: 25px;
+    display: block;}
+nav {
+    position: fixed;
+    max-width: 50px;
+    height: 100px;
+    border-style: outset;
+    border-color: lightskyblue;
+    border-width: 5px;
+    padding: 25px;
+    margin: 10px;
+    display: block;} */
