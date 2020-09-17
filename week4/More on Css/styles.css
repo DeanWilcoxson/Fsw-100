@@ -25,14 +25,20 @@ h2 {
     overflow: hidden;
 }
 
-img {
-    position: relative;
-    float: left;
-    padding: 30px;
+h4 {
+    text-align: center;
+    text-decoration: underline;
 }
 
 body {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQpI_rWUwT5rFtugZckTOud0ZI49WP2HmbQxg&usqp=CAU)
+}
+
+img {
+    position: relative;
+    float: left;
+    padding: 30px;
+    margin-bottom: 30px;
 }
 
 ul {
@@ -45,6 +51,7 @@ ul {
 
 li {
     float: left;
+    margin: 0px;
     border-width: 5px;
     border-style: inset;
     border-color: lightsteelblue;
@@ -62,6 +69,10 @@ li a:hover {
     background-color: #111;
 }
 
+.date {
+    text-decoration: underline;
+}
+
 .box-content {
     position: relative;
     left: 30px;
@@ -77,6 +88,17 @@ li a:hover {
     background-color: lightblue;
 }
 
+.center {
+    border-width: 5px;
+    border-style: inset;
+    border-color: lightskyblue;
+    display: block;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    background-color: lightblue;
+}
+
 #top {
     text-decoration: underline;
     border-style: inset;
@@ -87,33 +109,3 @@ li a:hover {
     height: 400px;
     box-shadow: 20px 25px lightsteelblue;
 }
-
-
-/* #blog1 {text-decoration: cornflowerblue;}
-
-#blog2 {}
-
-#blog3 {}
-
-#blog4 {}
-
-#blog5 {}
-
-footer {
-    max-width: 50px;
-    height: 50px;
-    border-style: outset;
-    border-color: lightskyblue;
-    border-width: 5px;
-    padding: 25px;
-    display: block;}
-nav {
-    position: fixed;
-    max-width: 50px;
-    height: 100px;
-    border-style: outset;
-    border-color: lightskyblue;
-    border-width: 5px;
-    padding: 25px;
-    margin: 10px;
-    display: block;} */
