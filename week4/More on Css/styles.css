@@ -8,23 +8,6 @@ h1 {
     background-color: lightblue;
 }
 
-h2 {
-    text-align: center;
-    font-size: 100px;
-    background-color: lightblue;
-    position: relative;
-    left: 30px;
-    top: 100px;
-    border-style: inset;
-    border-color: lightskyblue;
-    border-width: 10px;
-    padding: 25px;
-    margin: 100px;
-    height: 250px;
-    box-shadow: 20px 25px lightsteelblue;
-    overflow: hidden;
-}
-
 h4 {
     text-align: center;
     text-decoration: underline;
@@ -59,7 +42,6 @@ li {
 
 li a {
     display: block;
-    color: white;
     text-align: center;
     padding: 20px 20px;
     text-decoration: none;
@@ -76,7 +58,7 @@ li a:hover {
 .box-content {
     position: relative;
     left: 30px;
-    top: 100px;
+    top: 50px;
     border-style: inset;
     border-color: lightskyblue;
     border-width: 10px;
@@ -105,7 +87,7 @@ li a:hover {
     border-color: lightskyblue;
     border-width: 10px;
     padding: 25px;
-    margin: 100px;
-    height: 400px;
+    margin: 50px;
+    height: 300px;
     box-shadow: 20px 25px lightsteelblue;
 }
