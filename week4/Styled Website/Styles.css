@@ -1,90 +1,126 @@
-            /*------------------------------------------------------------------
-[Table of contents]
- Font / *
- Body
- Header / #header
- Navigation / #navbar
- Content / #content
- Images / .images
- Table / #table
- Boxes / .boxes
- Footer / #footer
--------------------------------------------------------------------*/
-            
-            * {
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-            }
-            
-            Body {
-                background-image: url(https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
-                background-size: cover;
-            }
-            
-            #header {
-                font-size: 48px;
-                text-align: justify;
-                width: 25%;
-                height: 200px;
-                border: solid 1px #555;
-                background-size: unset;
-                box-shadow: 10px -10px 5px rgba(0, 0, 0, 0.6);
-                -moz-box-shadow: 10px -10px 5px rgba(0, 0, 0, 0.6);
-                -webkit-box-shadow: 10px -10px 5px rgba(0, 0, 0, 0.6);
-                -o-box-shadow: 10px -10px 5px rgba(0, 0, 0, 0.6);
-                border-radius: 15px;
-                position: relative;
-                padding: 0;
-                margin: 100px;
-            }
-            
-            ul {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-                overflow: hidden;
-                background-color: yellow;
-                position: absolute;
-            }
-            
-            li {
-                float: left;
-                margin: 0px;
-                border-width: 5px;
-                border-style: inset;
-                border-color: lightyellow;
-            }
-            
-            li a {
-                display: block;
-                text-align: center;
-                padding: 20px 20px;
-                text-decoration: none;
-            }
-            
-            li a:hover {
-                background-color: goldenrod;
-            }
-            
-            #content {}
-            
-            .images {}
-            
-            #table {}
-            
-            .boxes {
-                width: 90%;
-                height: 800px;
-                border: solid 1px #555;
-                background-image: url(https://i.pinimg.com/originals/7c/4e/de/7c4ede3ab5c6234725e9216bd1bebfbe.png);
-                background-size: unset;
-                box-shadow: 10px -10px 5px rgba(0, 0, 0, 0.6);
-                -moz-box-shadow: 10px -10px 5px rgba(0, 0, 0, 0.6);
-                -webkit-box-shadow: 10px -10px 5px rgba(0, 0, 0, 0.6);
-                -o-box-shadow: 10px -10px 5px rgba(0, 0, 0, 0.6);
-                border-radius: 15px;
-                position: relative;
-                padding: 5px;
-                margin: 100px;
-            }
-            
-            #footer {}
+/*---------------------------Font-----------------------------------------------*/
+
+* {
+    font-family: 'Courgette', cursive;
+    color: black;
+}
+
+
+/*---------------------------Body-----------------------------------------------*/
+
+Body {
+    background-image: url(https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    background-size: cover;
+}
+
+
+/*--------------------------Header-----------------------------------------------*/
+
+#header {
+    font-size: 48px;
+    text-align: center;
+    width: 25%;
+    height: 200px;
+    background-size: unset;
+    box-shadow: 10px -10px 5px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 10px -10px 5px goldenrod;
+    border-radius: 15px;
+    padding: 0;
+    margin: auto;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+}
+
+
+/*------------------------Navigation---------------------------------------------*/
+
+#navbar ul {
+    list-style-type: none;
+    margin: 20;
+    padding: 50;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+}
+
+#navbar li {
+    float: left;
+    margin: 0px;
+    border-width: 5px;
+    border-style: outset;
+    border-color: darkgoldenrod;
+    border-radius: 15px;
+}
+
+#navbar li a {
+    display: block;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+#navbar li a:hover {
+    background-color: yellow;
+}
+
+figcaption {
+    width: 150px;
+}
+
+
+/*--------------------------Content----------------------------------------------*/
+
+.inline-content {
+    list-style: none;
+    padding: 0;
+    display: inline-flex;
+}
+
+.inline-content figcaption {
+    margin: auto;
+}
+
+
+/*--------------------------Images-----------------------------------------------*/
+
+.images {
+    border-radius: 25px;
+    width: 400px;
+    height: 250px;
+}
+
+
+/*--------------------------Table------------------------------------------------*/
+
+#table {}
+
+
+/*--------------------------Boxes------------------------------------------------*/
+
+.boxes {
+    width: 75%;
+    height: 800px;
+    /*background-image: url(https://i.pinimg.com/originals/7c/4e/de/7c4ede3ab5c6234725e9216bd1bebfbe.png);*/
+    background-size: unset;
+    box-shadow: 10px -10px 5px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 10px -10px 5px goldenrod;
+    border-radius: 15px;
+    position: relative;
+    padding: 5px;
+    margin: 100px;
+}
+
+
+/*--------------------------Footer-----------------------------------------------*/
+
+#footer {}
