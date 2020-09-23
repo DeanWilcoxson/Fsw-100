@@ -1,3 +1,9 @@
+body {
+    display: grid;
+    grid-template-areas: "head" "nav nav nav nav" "main main" "footer footer"
+}
+
+
 /*-----------------------------------Mobile Screens-----------------------------------*/
 
 @media only screen and (max-width: 768px) {
@@ -24,38 +30,42 @@
         width: 100%;
         height: 200px;
         margin: 5px;
-        display: grid;
+        padding: 0;
+        grid-area: head;
     }
     nav div {
         background-color: #EE2E84;
         width: 25%;
         height: 200px;
-        display: grid;
-        float: left;
         margin: 5px;
+        padding: 0;
+        display: inline-block;
+        grid-area: nav;
     }
     main div {
         background-color: #85CFD8;
-        display: grid;
         width: 50%;
-        float: left;
         height: 200px;
         margin: 5px;
+        padding: 0;
+        display: inline-block;
+        grid-area: main;
     }
     footer div {
         background-color: #8DC63F;
-        display: grid;
-        width: 75%;
-        float: left;
+        width: 65%;
         height: 200px;
         margin: 5px;
+        padding: 0;
+        grid-area: footer;
     }
     #orange {
         background-color: #E76E34;
-        display: grid;
         width: 25%;
-        float: right;
         height: 200px;
         margin: 5px;
+        padding: 0;
+        grid-area: footer;
+        float: right;
     }
 }
