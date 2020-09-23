@@ -1,8 +1,61 @@
-/*-----------------------------------large Screens------------------------------------*/
+/*-----------------------------------Mobile Screens-----------------------------------*/
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    header {
+        background-color: #F5C6D6;
+    }
+    nav {
+        background-color: #EE2E84;
+    }
+    main {
+        background-color: #85CFD8;
+    }
+    footer {
+        background-color: #8DC63F;
+    }
+}
 
 
-/*----------------------------------Mobile Screens------------------------------------*/
+/*----------------------------------Large Screens-------------------------------------*/
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    header div {
+        background-color: #F5C6D6;
+        width: 100%;
+        height: 200px;
+        margin: 5px;
+        display: grid;
+    }
+    nav div {
+        background-color: #EE2E84;
+        width: 25%;
+        height: 200px;
+        display: grid;
+        float: left;
+        margin: 5px;
+    }
+    main div {
+        background-color: #85CFD8;
+        display: grid;
+        width: 50%;
+        float: left;
+        height: 200px;
+        margin: 5px;
+    }
+    footer div {
+        background-color: #8DC63F;
+        display: grid;
+        width: 75%;
+        float: left;
+        height: 200px;
+        margin: 5px;
+    }
+    #orange {
+        background-color: #E76E34;
+        display: grid;
+        width: 25%;
+        float: right;
+        height: 200px;
+        margin: 5px;
+    }
+}
