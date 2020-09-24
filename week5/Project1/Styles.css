@@ -1,14 +1,12 @@
-body {
-    display: grid;
-    grid-template-areas: "head" "nav nav nav nav" "main main" "footer footer"
-}
-
-
 /*-----------------------------------Mobile Screens-----------------------------------*/
 
 @media only screen and (max-width: 768px) {
     header {
         background-color: #F5C6D6;
+        width: 100%;
+        float: none;
+        margin: auto;
+        padding: 0;
     }
     nav {
         background-color: #EE2E84;
@@ -25,47 +23,53 @@ body {
 /*----------------------------------Large Screens-------------------------------------*/
 
 @media only screen and (min-width: 768px) {
+    body {
+        display: grid;
+    }
     header div {
         background-color: #F5C6D6;
         width: 100%;
-        height: 200px;
+        height: 220px;
         margin: 5px;
         padding: 0;
-        grid-area: head;
+        display: grid;
+        grid-template-columns: 4fr;
     }
     nav div {
         background-color: #EE2E84;
         width: 25%;
-        height: 200px;
+        height: 220px;
         margin: 5px;
         padding: 0;
-        display: inline-block;
-        grid-area: nav;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     main div {
         background-color: #85CFD8;
         width: 50%;
-        height: 200px;
+        height: 220px;
         margin: 5px;
         padding: 0;
-        display: inline-block;
-        grid-area: main;
+        position: relative;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
     }
     footer div {
         background-color: #8DC63F;
         width: 65%;
-        height: 200px;
+        height: 220px;
         margin: 5px;
         padding: 0;
-        grid-area: footer;
+        display: grid;
+        position: relative;
+        grid-template-columns: 3fr 1fr;
     }
     #orange {
         background-color: #E76E34;
         width: 25%;
-        height: 200px;
+        height: 220px;
         margin: 5px;
         padding: 0;
-        grid-area: footer;
-        float: right;
     }
 }
