@@ -8,7 +8,7 @@
 }
 
 .item1 {
-    background-color: chartreuse;
+    background-color: red;
     height: 100px;
     margin: 10px;
     padding: 0;
@@ -18,7 +18,7 @@
 }
 
 .item2 {
-    background-color: cyan;
+    background-color: blue;
     height: 100px;
     margin: 10px;
     padding: 0;
@@ -28,7 +28,7 @@
 }
 
 .item3 {
-    background-color: fuchsia;
+    background-color: green;
     height: 100px;
     margin: 10px;
     padding: 0;
@@ -38,7 +38,7 @@
 }
 
 .item4 {
-    background-color: gold;
+    background-color: darkmagenta;
     height: 100px;
     margin: 10px;
     padding: 0;
@@ -48,7 +48,7 @@
 }
 
 .item5 {
-    background-color: darkorange;
+    background-color: yellow;
     height: 100px;
     margin: 10px;
     padding: 0;
@@ -58,7 +58,7 @@
 }
 
 .item6 {
-    background-color: blue;
+    background-color: red;
     height: 500px;
     margin: 10px;
     padding: 0;
@@ -68,7 +68,7 @@
 }
 
 .item7 {
-    background-color: royalblue;
+    background-color: blue;
     margin: 10px;
     padding: 0;
     border-radius: 10px;
@@ -77,7 +77,7 @@
 }
 
 .item8 {
-    background-color: cyan;
+    background-color: green;
     margin: 10px;
     padding: 0;
     border-radius: 10px;
@@ -86,7 +86,7 @@
 }
 
 .item9 {
-    background-color: turquoise;
+    background-color: darkmagenta;
     margin: 10px;
     padding: 0;
     border-radius: 10px;
@@ -95,7 +95,7 @@
 }
 
 .item10 {
-    background-color: darkcyan;
+    background-color: darkmagenta;
     margin: 10px;
     padding: 0;
     border-radius: 10px;
