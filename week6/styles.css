@@ -13,7 +13,7 @@
 #grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 100px);
+    grid-template-rows: repeat(4, 100px);
     border: 10px outset royalblue;
     border-radius: 5px;
 }
@@ -21,100 +21,126 @@
 #grid-container div {
     padding: 10px;
     margin: 10px;
+    border: 5px dashed royalblue;
+}
+
+#grid-container div:hover {
+    border: 5px solid royalblue;
+    background-color: gold;
 }
 
 
 /*------------box1--------------*/
 
 #box1 {
-    border: 5px outset royalblue;
     grid-column: 1/2;
     grid-row: 1/2;
-    background-color: lightgreen;
     text-align: center;
+}
+
+div:hover {
+    border: 5px outset royalblue;
     border-radius: 5px;
 }
 
 #box1 a:hover {
-    color: #FF00FF;
+    color: lime;
 }
 
 
 /*------------box2--------------*/
 
 #box2 {
-    border: 5px outset royalblue;
     grid-column: 2/3;
     grid-row: 1/2;
-    background-color: lightgreen;
     text-align: center;
-    border-radius: 5px;
 }
 
 #box2 a:hover {
-    color: #FF00FF;
+    color: lime;
+}
+
+div:hover {
+    border: 5px outset royalblue;
+    border-radius: 5px;
 }
 
 
 /*------------box3--------------*/
 
 #box3 {
-    border: 5px outset royalblue;
     grid-column: 1/2;
     grid-row: 2/3;
-    background-color: lightgreen;
     text-align: center;
-    border-radius: 5px;
 }
 
 #box3 a:hover {
-    color: #FF00FF;
+    color: lime;
+}
+
+div:hover {
+    border: 5px outset royalblue;
+    border-radius: 5px;
 }
 
 
 /*------------box4--------------*/
 
 #box4 {
-    border: 5px outset royalblue;
     grid-column: 2/3;
     grid-row: 2/3;
-    background-color: lightgreen;
     text-align: center;
-    border-radius: 5px;
 }
 
 #box4 a:hover {
-    color: #FF00FF;
+    color: lime;
+}
+
+div:hover {
+    border: 5px outset royalblue;
+    border-radius: 5px;
 }
 
 
 /*------------box5--------------*/
 
 #box5 {
-    border: 5px outset royalblue;
     grid-column: 1/2;
     grid-row: 3/4;
-    background-color: lightgreen;
     text-align: center;
-    border-radius: 5px;
 }
 
 #box5 a:hover {
-    color: #FF00FF;
+    color: lime;
+}
+
+div:hover {
+    border: 5px outset royalblue;
+    border-radius: 5px;
 }
 
 
 /*------------box6--------------*/
 
 #box6 {
-    border: 5px outset royalblue;
     grid-column: 2/3;
     grid-row: 3/4;
-    background-color: lightgreen;
     text-align: center;
-    border-radius: 5px;
 }
 
 #box6 a:hover {
-    color: #FF00FF;
+    color: lime;
+}
+
+div:hover {
+    border: 5px outset royalblue;
+    border-radius: 5px;
+}
+
+
+/*------------box#7(audio)--------*/
+
+#box7 {
+    grid-column: 1/3;
+    grid-row: 4/5;
 }
