@@ -93,10 +93,19 @@
                 border-radius: 10px;
                 width: 95%;
                 height: 200px;
-                margin: 10px;
+                margin: 15px;
                 float: left;
             }
+            #flex-container3 table {
+                width: 95%;
+                margin-left: 10px;
+            }
             /*-------------Footer-------------*/
+            Footer {
+                text-align: justify;
+                font-size: 50px;
+                grid-row: 8/9;
+            }
         }
         /*-------------(Tablets)-------------*/
         
@@ -126,7 +135,7 @@
                 padding: 10px;
             }
             #flex-container audio {
-                padding: 25px;
+                padding: 25PX;
             }
             /*-------------Nav-------------*/
             #flex-container2 {
@@ -176,10 +185,20 @@
                 border-radius: 10px;
                 width: 200px;
                 height: 200px;
-                margin: 10px;
+                margin: 20px;
                 float: left;
             }
+            #flex-container3 table {
+                width: 95%;
+                margin-left: 10px;
+            }
             /*-------------Footer-------------*/
+            Footer {
+                text-align: justify;
+                font-size: 50px;
+                grid-column: 1/9;
+                grid-row: 8/9;
+            }
         }
         /*-------------Desktop-------------*/
         
@@ -223,6 +242,8 @@
             }
             #flex-container2 ul {
                 list-style-type: none;
+                padding: 0;
+                margin: auto;
             }
             #flex-container2 li {
                 float: left;
@@ -247,6 +268,7 @@
             #flex-container3 section {
                 border: 5px outset firebrick;
                 border-radius: 15px;
+                margin: 50px;
             }
             #flex-container3 section h6 {
                 font-size: 50px;
@@ -259,8 +281,18 @@
                 border-radius: 10px;
                 width: 200px;
                 height: 200px;
-                margin: 10px;
+                margin: 50px;
                 float: left;
             }
+            #flex-container3 table {
+                width: 95%;
+                margin-left: 10px;
+            }
             /*-------------Footer-------------*/
+            Footer {
+                text-align: justify;
+                font-size: 50px;
+                grid-column: 1/9;
+                grid-row: 8/9;
+            }
         }
