@@ -17,9 +17,6 @@
     #navbar {
         grid-row: 2/3;
     }
-    #navbar ul {
-        background-color: fuchsia;
-    }
     #navbar ul li {
         list-style-type: none;
         float: left;
@@ -40,7 +37,7 @@
 
 /*----------------------------------------Small Tablets------------------------------------*/
 
-@media only screen and (min-width:500px) and (max-width:799px) {
+@media only screen and (min-width: 500px) and (max-width:799px) {
     /*------------------------------------Body---------------------------------------------*/
     #grid-container {
         display: grid;
@@ -56,9 +53,6 @@
     /*------------------------------------Nav----------------------------------------------*/
     #navbar {
         grid-row: 2/3;
-    }
-    #navbar ul {
-        background-color: fuchsia;
     }
     #navbar ul li {
         list-style-type: none;
@@ -80,7 +74,7 @@
 
 /*----------------------------------------Larger Tablets-----------------------------------*/
 
-@media only screen and (min-width:800) and (max-width: 1199px) {
+@media only screen and (min-width: 800px) and (max-width: 1199px) {
     /*------------------------------------Body---------------------------------------------*/
     #grid-container {
         display: grid;
@@ -96,9 +90,6 @@
     /*------------------------------------Nav----------------------------------------------*/
     #navbar {
         grid-row: 2/3;
-    }
-    #navbar ul {
-        background-color: fuchsia;
     }
     #navbar ul li {
         list-style-type: none;
@@ -136,9 +127,6 @@
     /*------------------------------------Nav----------------------------------------------*/
     #navbar {
         grid-row: 2/3;
-    }
-    #navbar ul {
-        background-color: fuchsia;
     }
     #navbar ul li {
         list-style-type: none;
