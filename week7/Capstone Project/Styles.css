@@ -13,6 +13,10 @@
     #header h1 {
         text-align: center;
     }
+    #header h5 {
+        text-align: center;
+        font-size: 20px;
+    }
     /*------------------------------------Nav----------------------------------------------*/
     #navbar {
         grid-row: 2/3;
@@ -25,6 +29,13 @@
     }
     #navbar ul li a {
         margin: 10px;
+        color: blue;
+    }
+    #navbar ul li a:link {
+        color: blue;
+    }
+    #navbar ul li a:hover {
+        color: green;
     }
     /*------------------------------------Main---------------------------------------------*/
     /*------------------------------------Footer-------------------------------------------*/
@@ -49,6 +60,10 @@
     }
     #header h1 {
         text-align: center;
+    }
+    #header h5 {
+        text-align: center;
+        font-size: 20px;
     }
     /*------------------------------------Nav----------------------------------------------*/
     #navbar {
@@ -87,6 +102,10 @@
     #header h1 {
         text-align: center;
     }
+    #header h5 {
+        text-align: center;
+        font-size: 20px;
+    }
     /*------------------------------------Nav----------------------------------------------*/
     #navbar {
         grid-row: 2/3;
@@ -123,6 +142,10 @@
     }
     #header h1 {
         text-align: center;
+    }
+    #header h5 {
+        text-align: center;
+        font-size: 20px;
     }
     /*------------------------------------Nav----------------------------------------------*/
     #navbar {
