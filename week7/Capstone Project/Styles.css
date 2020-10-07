@@ -14,7 +14,7 @@ body {
     /*------------------------------------Body---------------------------------------------*/
     #grid-container {
         display: grid;
-        grid-template-rows: repeat(12, 100px);
+        grid-template-rows: repeat(12, 200px);
     }
     /*------------------------------------Header-------------------------------------------*/
     #header {
@@ -24,8 +24,8 @@ body {
     }
     #header h1 {
         font-size: 72px;
-        text-align: justify;
-        text-shadow: 2px 2px 4px #222;
+        text-align: center;
+        text-shadow: 2px 2px 4px #000;
         color: blue;
         margin: 0px;
         padding: 0px;
@@ -34,32 +34,33 @@ body {
         margin: 0px;
         padding-right: 5px;
         border-right: 3px solid blue;
+        border-left: 3px solid blue;
     }
     #header h5 {
-        text-align: justify;
+        text-align: center;
         font-size: 20px;
         color: blue;
     }
     /*------------------------------------Nav----------------------------------------------*/
     #navbar {
         grid-row: 2/3;
-        background-color: rgba(255, 255, 255, 0.5);
-        box-shadow: 5px 10px 4px #888888;
     }
     #navbar ul li {
+        box-shadow: 5px 10px 4px #888888;
+        background-color: rgba(255, 255, 255, 0.5);
         list-style-type: none;
-        text-shadow: 2px 2px 3px #777;
-        font-size: 20px;
         float: left;
         padding: 5px;
         margin: 20px;
+        text-shadow: 2px 2px 3px #777;
+        font-size: 20px;
     }
     #navbar ul li a {
         margin: 10px;
         color: blue;
     }
     #navbar ul li a:link {
-        color: blue;
+        color: red;
     }
     #navbar ul li a:hover {
         color: green;
@@ -71,17 +72,21 @@ body {
     }
     #main h4 {
         color: blue;
+        font-size: 28px;
         text-align: center;
         text-shadow: 2px 2px 4px #777;
+        border-right: 3px solid blue;
+        border-left: 3px solid blue;
     }
     #main section {
         background-color: rgba(255, 255, 255, 0.5);
     }
-    #main section span {}
     /*------------------------------------Footer-------------------------------------------*/
     #footer {
+        margin: 0px;
+        padding: 0px;
         grid-row: 12/13;
-        font-size: 16px;
+        font-size: 28px;
         text-align: center;
         color: blue;
         text-shadow: 2px 2px 4px #000;
@@ -95,7 +100,7 @@ body {
     /*------------------------------------Body---------------------------------------------*/
     #grid-container {
         display: grid;
-        grid-template-rows: repeat(12, 100px);
+        grid-template-rows: repeat(12, 300px);
     }
     /*------------------------------------Header-------------------------------------------*/
     #header {
@@ -105,8 +110,8 @@ body {
     }
     #header h1 {
         font-size: 72px;
-        text-align: justify;
-        text-shadow: 2px 2px 4px #222;
+        text-align: center;
+        text-shadow: 2px 2px 4px #000;
         color: blue;
         margin: 0px;
         padding: 0px;
@@ -115,19 +120,20 @@ body {
         margin: 0px;
         padding-right: 5px;
         border-right: 3px solid blue;
+        border-left: 3px solid blue;
     }
     #header h5 {
-        text-align: justify;
+        text-align: center;
         font-size: 20px;
         color: blue;
     }
     /*------------------------------------Nav----------------------------------------------*/
     #navbar {
         grid-row: 2/3;
-        background-color: rgba(255, 255, 255, 0.5);
-        box-shadow: 5px 10px 4px #888888;
     }
     #navbar ul li {
+        box-shadow: 5px 10px 4px #888888;
+        background-color: rgba(255, 255, 255, 0.5);
         list-style-type: none;
         float: left;
         padding: 5px;
@@ -151,6 +157,7 @@ body {
         grid-row: 3/12;
     }
     #main h4 {
+        font-size: 28px;
         color: blue;
         text-align: center;
         text-shadow: 2px 2px 4px #777;
@@ -160,9 +167,12 @@ body {
     }
     #main section span {}
     /*------------------------------------Footer-------------------------------------------*/
-    footer {
-        font-size: 16px;
+    #footer {
+        grid-row: 12/13;
+        font-size: 28px;
         text-align: center;
+        color: blue;
+        text-shadow: 2px 2px 4px #000;
     }
 }
 
@@ -184,7 +194,7 @@ body {
     #header h1 {
         font-size: 72px;
         text-align: justify;
-        text-shadow: 2px 2px 4px #222;
+        text-shadow: 2px 2px 4px #000;
         color: blue;
         margin: 0px;
         padding: 0px;
@@ -193,6 +203,7 @@ body {
         margin: 0px;
         padding-right: 5px;
         border-right: 3px solid blue;
+        border-left: 3px solid blue;
     }
     #header h5 {
         text-align: justify;
@@ -202,10 +213,10 @@ body {
     /*------------------------------------Nav----------------------------------------------*/
     #navbar {
         grid-row: 2/3;
-        background-color: rgba(255, 255, 255, 0.5);
-        box-shadow: 5px 10px 4px #888888;
     }
     #navbar ul li {
+        box-shadow: 5px 10px 4px #888888;
+        background-color: rgba(255, 255, 255, 0.5);
         list-style-type: none;
         float: left;
         padding: 5px;
@@ -229,6 +240,7 @@ body {
         grid-row: 3/12;
     }
     #main h4 {
+        font-size: 28px;
         color: blue;
         text-align: center;
         text-shadow: 2px 2px 4px #777;
@@ -238,9 +250,12 @@ body {
     }
     #main section span {}
     /*------------------------------------Footer-------------------------------------------*/
-    footer {
-        font-size: 16px;
-        text-align: justify;
+    #footer {
+        grid-row: 12/13;
+        font-size: 28px;
+        text-align: center;
+        color: blue;
+        text-shadow: 2px 2px 4px #000;
     }
 }
 
@@ -251,7 +266,7 @@ body {
     /*------------------------------------Body---------------------------------------------*/
     #grid-container {
         display: grid;
-        grid-template-rows: repeat(12, 100px);
+        grid-template-rows: repeat(12, 200px);
     }
     /*------------------------------------Header-------------------------------------------*/
     #header {
@@ -262,7 +277,7 @@ body {
     #header h1 {
         font-size: 72px;
         text-align: justify;
-        text-shadow: 2px 2px 4px #222;
+        text-shadow: 2px 2px 4px #000;
         color: blue;
         margin: 0px;
         padding: 0px;
@@ -271,6 +286,7 @@ body {
         margin: 0px;
         padding-right: 5px;
         border-right: 3px solid blue;
+        border-left: 3px solid blue;
     }
     #header h5 {
         text-align: justify;
@@ -280,10 +296,10 @@ body {
     /*------------------------------------Nav----------------------------------------------*/
     #navbar {
         grid-row: 2/3;
-        background-color: rgba(255, 255, 255, 0.5);
-        box-shadow: 5px 10px 4px #888888;
     }
     #navbar ul li {
+        box-shadow: 5px 10px 4px #888888;
+        background-color: rgba(255, 255, 255, 0.5);
         list-style-type: none;
         float: left;
         padding: 5px;
@@ -307,6 +323,7 @@ body {
         grid-row: 3/12;
     }
     #main h4 {
+        font-size: 28px;
         color: blue;
         text-align: center;
         text-shadow: 2px 2px 4px #777;
@@ -316,8 +333,11 @@ body {
     }
     #main section span {}
     /*------------------------------------Footer-------------------------------------------*/
-    footer {
-        font-size: 16px;
-        text-align: justify;
+    #footer {
+        grid-row: 12/13;
+        font-size: 28px;
+        text-align: center;
+        color: blue;
+        text-shadow: 2px 2px 4px #000;
     }
 }
