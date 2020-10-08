@@ -5,6 +5,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    font-family: 'Croissant One';
 }
 
 
@@ -39,7 +40,10 @@ body {
     #header h5 {
         text-align: center;
         font-size: 20px;
-        color: blue;
+        color: black;
+    }
+    #header h5 em {
+        background-color: rgba(255, 255, 255, 0.5);
     }
     /*------------------------------------Nav----------------------------------------------*/
     #navbar {
@@ -100,7 +104,7 @@ body {
     /*------------------------------------Body---------------------------------------------*/
     #grid-container {
         display: grid;
-        grid-template-rows: repeat(12, 300px);
+        grid-template-rows: repeat(12, 225px);
     }
     /*------------------------------------Header-------------------------------------------*/
     #header {
@@ -125,7 +129,10 @@ body {
     #header h5 {
         text-align: center;
         font-size: 20px;
-        color: blue;
+        color: black;
+    }
+    #header h5 em {
+        background-color: rgba(255, 255, 255, 0.5);
     }
     /*------------------------------------Nav----------------------------------------------*/
     #navbar {
@@ -165,7 +172,6 @@ body {
     #main section {
         background-color: rgba(255, 255, 255, 0.5);
     }
-    #main section span {}
     /*------------------------------------Footer-------------------------------------------*/
     #footer {
         grid-row: 12/13;
@@ -183,7 +189,7 @@ body {
     /*------------------------------------Body---------------------------------------------*/
     #grid-container {
         display: grid;
-        grid-template-rows: repeat(12, 100px);
+        grid-template-rows: repeat(12, 250px);
     }
     /*------------------------------------Header-------------------------------------------*/
     #header {
@@ -192,7 +198,7 @@ body {
         padding: 0px;
     }
     #header h1 {
-        font-size: 72px;
+        font-size: 125px;
         text-align: justify;
         text-shadow: 2px 2px 4px #000;
         color: blue;
@@ -208,7 +214,10 @@ body {
     #header h5 {
         text-align: justify;
         font-size: 20px;
-        color: blue;
+        color: black;
+    }
+    #header h5 em {
+        background-color: rgba(255, 255, 255, 0.5);
     }
     /*------------------------------------Nav----------------------------------------------*/
     #navbar {
@@ -248,7 +257,6 @@ body {
     #main section {
         background-color: rgba(255, 255, 255, 0.5);
     }
-    #main section span {}
     /*------------------------------------Footer-------------------------------------------*/
     #footer {
         grid-row: 12/13;
@@ -266,7 +274,7 @@ body {
     /*------------------------------------Body---------------------------------------------*/
     #grid-container {
         display: grid;
-        grid-template-rows: repeat(12, 200px);
+        grid-template-rows: repeat(12, 300px);
     }
     /*------------------------------------Header-------------------------------------------*/
     #header {
@@ -275,9 +283,9 @@ body {
         padding: 0px;
     }
     #header h1 {
-        font-size: 72px;
+        font-size: 175px;
         text-align: justify;
-        text-shadow: 2px 2px 4px #000;
+        text-shadow: 4px 4px 8px #000;
         color: blue;
         margin: 0px;
         padding: 0px;
@@ -291,7 +299,10 @@ body {
     #header h5 {
         text-align: justify;
         font-size: 20px;
-        color: blue;
+        color: black;
+    }
+    #header h5 em {
+        background-color: rgba(255, 255, 255, 0.5);
     }
     /*------------------------------------Nav----------------------------------------------*/
     #navbar {
@@ -304,8 +315,12 @@ body {
         float: left;
         padding: 5px;
         margin: 20px;
-        text-shadow: 2px 2px 3px #777;
+        /*         text-shadow: 2px 2px 3px #777;
+ */
         font-size: 20px;
+    }
+    #navbar ul li:hover {
+        background-color: blue;
     }
     #navbar ul li a {
         margin: 10px;
@@ -315,7 +330,7 @@ body {
         color: blue;
     }
     #navbar ul li a:hover {
-        color: green;
+        color: whitesmoke;
         cursor: pointer;
     }
     /*------------------------------------Main---------------------------------------------*/
@@ -330,8 +345,9 @@ body {
     }
     #main section {
         background-color: rgba(255, 255, 255, 0.5);
+        box-shadow: 5px 10px 4px #888888;
+        margin-bottom: 20px;
     }
-    #main section span {}
     /*------------------------------------Footer-------------------------------------------*/
     #footer {
         grid-row: 12/13;
@@ -339,5 +355,9 @@ body {
         text-align: center;
         color: blue;
         text-shadow: 2px 2px 4px #000;
+    }
+    #footer div {
+        background-color: rgba(255, 255, 255, 0.5);
+        box-shadow: 5px 10px 4px #888888;
     }
 }
