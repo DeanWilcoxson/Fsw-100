@@ -75,6 +75,8 @@ body {
         grid-row: 3/12;
     }
     #main h4 {
+        margin: 0px;
+        padding: 0px;
         color: blue;
         font-size: 28px;
         text-align: center;
@@ -84,6 +86,8 @@ body {
     }
     #main section {
         background-color: rgba(255, 255, 255, 0.5);
+        box-shadow: 5px 10px 4px #888888;
+        margin-bottom: 20px;
     }
     /*------------------------------------Footer-------------------------------------------*/
     #footer {
@@ -108,7 +112,7 @@ body {
     /*------------------------------------Body---------------------------------------------*/
     #grid-container {
         display: grid;
-        grid-template-rows: repeat(12, 225px);
+        grid-template-rows: repeat(12, 250px);
     }
     /*------------------------------------Header-------------------------------------------*/
     #header {
@@ -168,6 +172,8 @@ body {
         grid-row: 3/12;
     }
     #main h4 {
+        margin: 0px;
+        padding: 0px;
         font-size: 28px;
         color: blue;
         text-align: center;
@@ -175,6 +181,8 @@ body {
     }
     #main section {
         background-color: rgba(255, 255, 255, 0.5);
+        box-shadow: 5px 10px 4px #888888;
+        margin-bottom: 20px;
     }
     /*------------------------------------Footer-------------------------------------------*/
     #footer {
@@ -257,6 +265,8 @@ body {
         grid-row: 3/12;
     }
     #main h4 {
+        margin: 0px;
+        padding: 0px;
         font-size: 28px;
         color: blue;
         text-align: center;
@@ -264,6 +274,8 @@ body {
     }
     #main section {
         background-color: rgba(255, 255, 255, 0.5);
+        box-shadow: 5px 10px 4px #888888;
+        margin-bottom: 20px;
     }
     /*------------------------------------Footer-------------------------------------------*/
     #footer {
@@ -354,6 +366,8 @@ body {
         grid-column: 1/5;
     }
     #main h4 {
+        margin: 0px;
+        padding: 0px;
         font-size: 28px;
         color: blue;
         text-align: center;
