@@ -15,7 +15,7 @@ body {
     /*------------------------------------Body---------------------------------------------*/
     #grid-container {
         display: grid;
-        grid-template-rows: repeat(12, 200px);
+        grid-template-rows: repeat(12, 250px);
     }
     /*------------------------------------Header-------------------------------------------*/
     #header {
@@ -90,10 +90,14 @@ body {
         margin: 0px;
         padding: 0px;
         grid-row: 12/13;
-        font-size: 28px;
+        font-size: 18px;
         text-align: center;
         color: blue;
         text-shadow: 2px 2px 4px #000;
+    }
+    #footer div {
+        background-color: rgba(255, 255, 255, 0.5);
+        box-shadow: 5px 10px 4px #888888;
     }
 }
 
@@ -180,6 +184,10 @@ body {
         color: blue;
         text-shadow: 2px 2px 4px #000;
     }
+    #footer div {
+        background-color: rgba(255, 255, 255, 0.5);
+        box-shadow: 5px 10px 4px #888888;
+    }
 }
 
 
@@ -265,6 +273,10 @@ body {
         color: blue;
         text-shadow: 2px 2px 4px #000;
     }
+    #footer div {
+        background-color: rgba(255, 255, 255, 0.5);
+        box-shadow: 5px 10px 4px #888888;
+    }
 }
 
 
@@ -274,11 +286,13 @@ body {
     /*------------------------------------Body---------------------------------------------*/
     #grid-container {
         display: grid;
-        grid-template-rows: repeat(12, 300px);
+        grid-template-rows: repeat(6, 300px);
+        grid-template-columns: repeat(4, 1fr);
     }
     /*------------------------------------Header-------------------------------------------*/
     #header {
         grid-row: 1/2;
+        grid-column: 1/5;
         margin: 0px;
         padding: 0px;
     }
@@ -307,6 +321,7 @@ body {
     /*------------------------------------Nav----------------------------------------------*/
     #navbar {
         grid-row: 2/3;
+        grid-column: 1/5;
     }
     #navbar ul li {
         box-shadow: 5px 10px 4px #888888;
@@ -336,6 +351,7 @@ body {
     /*------------------------------------Main---------------------------------------------*/
     #main {
         grid-row: 3/12;
+        grid-column: 1/5;
     }
     #main h4 {
         font-size: 28px;
@@ -350,6 +366,7 @@ body {
     }
     /*------------------------------------Footer-------------------------------------------*/
     #footer {
+        grid-column: 1/5;
         grid-row: 12/13;
         font-size: 28px;
         text-align: center;
