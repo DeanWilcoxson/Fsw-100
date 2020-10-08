@@ -94,7 +94,6 @@ body {
         margin: 0px;
         padding: 0px;
         grid-row: 12/13;
-        font-size: 18px;
         text-align: center;
         color: blue;
         text-shadow: 2px 2px 4px #000;
@@ -102,6 +101,43 @@ body {
     #footer div {
         background-color: rgba(255, 255, 255, 0.5);
         box-shadow: 5px 10px 4px #888888;
+        font-size: 18px;
+    }
+    #footer-nav1 {
+        font-size: 14px;
+        list-style-type: none;
+    }
+    #footer-nav1 li a {
+        color: blue;
+        text-decoration: none;
+    }
+    #footer-nav1 li a:hover {
+        background-color: blue;
+        color: whitesmoke;
+    }
+    #footer-nav2 {
+        font-size: 14px;
+        list-style-type: none;
+    }
+    #footer-nav2 li a {
+        color: blue;
+        text-decoration: none;
+    }
+    #footer-nav2 li a:hover {
+        background-color: blue;
+        color: whitesmoke;
+    }
+    #footer-nav3 {
+        font-size: 14px;
+        list-style-type: none;
+    }
+    #footer-nav3 li a {
+        color: blue;
+        text-decoration: none;
+    }
+    #footer-nav3 li a:hover {
+        background-color: blue;
+        color: whitesmoke;
     }
 }
 
@@ -196,6 +232,45 @@ body {
         background-color: rgba(255, 255, 255, 0.5);
         box-shadow: 5px 10px 4px #888888;
     }
+    #footer-nav1 {
+        font-size: 20px;
+        list-style-type: none;
+        float: left;
+    }
+    #footer-nav1 li a {
+        color: blue;
+        text-decoration: none;
+    }
+    #footer-nav1 li a:hover {
+        background-color: blue;
+        color: whitesmoke;
+    }
+    #footer-nav2 {
+        font-size: 20px;
+        list-style-type: none;
+        float: left;
+    }
+    #footer-nav2 li a {
+        color: blue;
+        text-decoration: none;
+    }
+    #footer-nav2 li a:hover {
+        background-color: blue;
+        color: whitesmoke;
+    }
+    #footer-nav3 {
+        list-style-type: none;
+        float: right;
+        margin-left: 100px;
+    }
+    #footer-nav3 li a {
+        color: blue;
+        text-decoration: none;
+    }
+    #footer-nav3 li a:hover {
+        background-color: blue;
+        color: whitesmoke;
+    }
 }
 
 
@@ -289,6 +364,45 @@ body {
         background-color: rgba(255, 255, 255, 0.5);
         box-shadow: 5px 10px 4px #888888;
     }
+    #footer-nav1 {
+        font-size: 20px;
+        list-style-type: none;
+        float: left;
+    }
+    #footer-nav1 li a {
+        color: blue;
+        text-decoration: none;
+    }
+    #footer-nav1 li a:hover {
+        background-color: blue;
+        color: whitesmoke;
+    }
+    #footer-nav2 {
+        font-size: 20px;
+        list-style-type: none;
+        float: left;
+    }
+    #footer-nav2 li a {
+        color: blue;
+        text-decoration: none;
+    }
+    #footer-nav2 li a:hover {
+        background-color: blue;
+        color: whitesmoke;
+    }
+    #footer-nav3 {
+        font-size: 20px;
+        list-style-type: none;
+        float: left;
+    }
+    #footer-nav3 li a {
+        color: blue;
+        text-decoration: none;
+    }
+    #footer-nav3 li a:hover {
+        background-color: blue;
+        color: whitesmoke;
+    }
 }
 
 
@@ -298,7 +412,7 @@ body {
     /*------------------------------------Body---------------------------------------------*/
     #grid-container {
         display: grid;
-        grid-template-rows: repeat(6, 300px);
+        grid-template-rows: repeat(12, 300px);
         grid-template-columns: repeat(4, 1fr);
     }
     /*------------------------------------Header-------------------------------------------*/
@@ -342,8 +456,6 @@ body {
         float: left;
         padding: 5px;
         margin: 20px;
-        /*         text-shadow: 2px 2px 3px #777;
- */
         font-size: 20px;
     }
     #navbar ul li:hover {
@@ -362,7 +474,7 @@ body {
     }
     /*------------------------------------Main---------------------------------------------*/
     #main {
-        grid-row: 3/12;
+        grid-row: 3/11;
         grid-column: 1/5;
     }
     #main h4 {
@@ -381,7 +493,7 @@ body {
     /*------------------------------------Footer-------------------------------------------*/
     #footer {
         grid-column: 1/5;
-        grid-row: 12/13;
+        grid-row: 11/13;
         font-size: 28px;
         text-align: center;
         color: blue;
@@ -390,5 +502,41 @@ body {
     #footer div {
         background-color: rgba(255, 255, 255, 0.5);
         box-shadow: 5px 10px 4px #888888;
+    }
+    #footer-nav1 {
+        font-size: 20px;
+        list-style-type: none;
+    }
+    #footer-nav1 li a {
+        color: blue;
+        text-decoration: none;
+    }
+    #footer-nav1 li a:hover {
+        background-color: blue;
+        color: whitesmoke;
+    }
+    #footer-nav2 {
+        font-size: 20px;
+        list-style-type: none;
+    }
+    #footer-nav2 li a {
+        color: blue;
+        text-decoration: none;
+    }
+    #footer-nav2 li a:hover {
+        background-color: blue;
+        color: whitesmoke;
+    }
+    #footer-nav3 {
+        font-size: 20px;
+        list-style-type: none;
+    }
+    #footer-nav3 li a {
+        color: blue;
+        text-decoration: none;
+    }
+    #footer-nav3 li a:hover {
+        background-color: blue;
+        color: whitesmoke;
     }
 }
