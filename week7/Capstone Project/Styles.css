@@ -44,13 +44,14 @@ body {
     }
     #header h5 em {
         background-color: rgba(255, 255, 255, 0.5);
+        box-shadow: 5px 10px 4px #88888878;
     }
     /*------------------------------------Nav----------------------------------------------*/
     #navbar {
         grid-row: 2/3;
     }
     #navbar ul li {
-        box-shadow: 5px 10px 4px #888888;
+        box-shadow: 5px 10px 4px #88888878;
         background-color: rgba(255, 255, 255, 0.5);
         list-style-type: none;
         float: left;
@@ -86,7 +87,7 @@ body {
     }
     #main section {
         background-color: rgba(255, 255, 255, 0.5);
-        box-shadow: 5px 10px 4px #888888;
+        box-shadow: 5px 10px 4px #88888878;
         margin-bottom: 20px;
     }
     /*------------------------------------Footer-------------------------------------------*/
@@ -100,7 +101,7 @@ body {
     }
     #footer div {
         background-color: rgba(255, 255, 255, 0.5);
-        box-shadow: 5px 10px 4px #888888;
+        box-shadow: 5px 10px 4px #88888878;
         font-size: 18px;
     }
     #footer-nav1 {
@@ -177,13 +178,14 @@ body {
     }
     #header h5 em {
         background-color: rgba(255, 255, 255, 0.5);
+        box-shadow: 5px 10px 4px #88888878;
     }
     /*------------------------------------Nav----------------------------------------------*/
     #navbar {
         grid-row: 2/3;
     }
     #navbar ul li {
-        box-shadow: 5px 10px 4px #888888;
+        box-shadow: 5px 10px 4px #88888878;
         background-color: rgba(255, 255, 255, 0.5);
         list-style-type: none;
         float: left;
@@ -217,7 +219,7 @@ body {
     }
     #main section {
         background-color: rgba(255, 255, 255, 0.5);
-        box-shadow: 5px 10px 4px #888888;
+        box-shadow: 5px 10px 4px #88888878;
         margin-bottom: 20px;
     }
     /*------------------------------------Footer-------------------------------------------*/
@@ -230,7 +232,7 @@ body {
     }
     #footer div {
         background-color: rgba(255, 255, 255, 0.5);
-        box-shadow: 5px 10px 4px #888888;
+        box-shadow: 5px 10px 4px #88888878;
     }
     #footer-nav1 {
         font-size: 20px;
@@ -309,13 +311,14 @@ body {
     }
     #header h5 em {
         background-color: rgba(255, 255, 255, 0.5);
+        box-shadow: 5px 10px 4px #88888878;
     }
     /*------------------------------------Nav----------------------------------------------*/
     #navbar {
         grid-row: 2/3;
     }
     #navbar ul li {
-        box-shadow: 5px 10px 4px #888888;
+        box-shadow: 5px 10px 4px #88888878;
         background-color: rgba(255, 255, 255, 0.5);
         list-style-type: none;
         float: left;
@@ -349,7 +352,7 @@ body {
     }
     #main section {
         background-color: rgba(255, 255, 255, 0.5);
-        box-shadow: 5px 10px 4px #888888;
+        box-shadow: 5px 10px 4px #88888878;
         margin-bottom: 20px;
     }
     /*------------------------------------Footer-------------------------------------------*/
@@ -362,7 +365,7 @@ body {
     }
     #footer div {
         background-color: rgba(255, 255, 255, 0.5);
-        box-shadow: 5px 10px 4px #888888;
+        box-shadow: 5px 10px 4px #88888878;
     }
     #footer-nav1 {
         font-size: 20px;
@@ -443,14 +446,16 @@ body {
     }
     #header h5 em {
         background-color: rgba(255, 255, 255, 0.5);
+        box-shadow: 5px 10px 4px #88888878;
     }
     /*------------------------------------Nav----------------------------------------------*/
     #navbar {
         grid-row: 2/3;
         grid-column: 1/5;
+        transition: font-size,
     }
     #navbar ul li {
-        box-shadow: 5px 10px 4px #888888;
+        box-shadow: 5px 10px 4px #88888878;
         background-color: rgba(255, 255, 255, 0.5);
         list-style-type: none;
         float: left;
@@ -487,7 +492,7 @@ body {
     }
     #main section {
         background-color: rgba(255, 255, 255, 0.5);
-        box-shadow: 5px 10px 4px #888888;
+        box-shadow: 5px 10px 4px #88888878;
         margin-bottom: 20px;
     }
     /*------------------------------------Footer-------------------------------------------*/
@@ -501,7 +506,7 @@ body {
     }
     #footer div {
         background-color: rgba(255, 255, 255, 0.5);
-        box-shadow: 5px 10px 4px #888888;
+        box-shadow: 5px 10px 4px #88888878;
     }
     #footer-nav1 {
         font-size: 20px;
