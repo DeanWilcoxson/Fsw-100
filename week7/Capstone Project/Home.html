@@ -2,149 +2,187 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Capstone Project</title>
-    <link href='https://fonts.googleapis.com/css?family=Croissant One' rel='stylesheet'>
-    <link rel="stylesheet" href="Styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Croissant One" rel="stylesheet" />
+    <link rel="stylesheet" href="Styles.css" />
     <script src="https://kit.fontawesome.com/21a2873a8e.js" crossorigin="anonymous"></script>
 </head>
 
 <body id="grid-container">
     <header id="header">
-        <h1><b>Deanoe's</b></h1>
-        <h5><em>"Sandwiches To Dine For!"</em></h5>
+        <div class="headline">
+            <h1><b>Deanoe's</b></h1>
+            <h5><em>"Sandwiches To Dine For!"</em></h5>
+        </div>
     </header>
     <nav id="navbar">
         <ul>
             <li>
-                <a href="Contact.html"><i class="fas fa-address-book"><b>Contact Us</b></i></a>
-            </li>
-            <li>
-                <a href="About.html"><i class="fab fa-adn"><b>About Page</b></i></a>
-            </li>
-        </ul>
+                <a href="Contact.html"><i class="fas fa-address-book"><b>Contact Us</b></i></a
+          >
+        </li>
+        <li>
+          <a href="About.html"
+            ><i class="fab fa-adn"><b>About Page</b></i></a
+          >
+        </li>
+      </ul>
     </nav>
     <main id="main">
-        <section>
-            <h4>Create Your Own</h4>
-            <ol> Choose at least one each:
-                <li>Choose your Bread (Carbohydrates):
-                    <ul>
-                        <li>Wheat</li>
-                        <li>White</li>
-                        <li>Rye</li>
-                        <li>Buttermilk</li>
-                        <li>Multigrain</li>
-                        <li>Sourdough</li>
-                    </ul>
-                </li>
-                <li>Choose your Condiments:
-                    <ul>
-                        <li>Mayonnaise</li>
-                        <li>Chipotle Mayonnaise</li>
-                        <li>Yellow Mustard</li>
-                        <li>Dijon Mustard</li>
-                        <li>Ketchup</li>
-                        <li>Barbecue Sauce</li>
-                        <li>Horseradish Sauce</li>
-                        <li>None</li>
-                    </ul>
-                </li>
-                <li>Choose your Meat (Protein):
-                    <ul>
-                        <li>Ham</li>
-                        <li>Bacon</li>
-                        <li>Turkey</li>
-                        <li>Pastrami</li>
-                        <li>Salami</li>
-                        <li>Roast Beef</li>
-                        <li>Chicken</li>
-                        <li>Tuna</li>
-                        <li>None</li>
-                    </ul>
-                </li>
-                <li>Choose your Cheese (Dairy):
-                    <ul>
-                        <li>Cheddar</li>
-                        <li>American</li>
-                        <li>Swiss</li>
-                        <li>Gouda</li>
-                        <li>Havarti</li>
-                        <li>Provolone</li>
-                        <li>Pepperjack</li>
-                        <li>Colby Jack</li>
-                        <li>None</li>
-                    </ul>
-                </li>
-                <li>Additional Toppings:
-                    <ul>
-                        <li>Pickles</li>
-                        <li>Lettuce</li>
-                        <li>Spinach</li>
-                        <li>Tomato</li>
-                        <li>Onion</li>
-                        <li>Banana Peppers</li>
-                        <li>Avocado</li>
-                        <li>None</li>
-                    </ul>
-                </li>
-                <li>Comments:</li>
-            </ol>
-        </section>
-        <section>
-            <h4>Menu</h4>
-            <ol>
-                <li>Classic Ham And Cheese - $5.99
-                    <p>Buttermilk Bread with Lettuce, Tomato, Cheddar Cheese and Black Forest Honey Ham, Toasted.</p>
-                    <img src=""></li>
-                <li>Turkey Melt - $5.99
-                    <p>Oven-Roasted Turkey Breast and Mesquite Turkey Breast with Pepperjack Cheese on Rye Bread, Grilled.
-                    </p>
-                    <img src=""></li>
-                <li>Italian Cold-Cut - $5.99
-                    <p>Pastrami, Salami, Provolone Cheese, Banana Peppers, Onion, Tomato and Spinach on White Bread.</p>
-                    <img src=""></li>
-            </ol>
-        </section>
-        <section>
-            <h4>Sides</h4>
-            <ol>
-                <li>Choice of Chips - $1.99</li>
-                <li>Unsalted Cashews - $1.99</li>
-                <li>Dried Fruit - $1.99</li>
-                <li>French Fries - $2.99</li>
-                <li>Fresh Fruit - $2.99</li>
-                <li>Carrots and Celery - $2.99</li>
-            </ol>
-        </section>
+      <section>
+        <h4>Create Your Own</h4>
+        <ol>
+          Choose at least one each:
+          <li>
+            Choose your Bread (Carbohydrates):
+            <ul class="choose-one">
+              <li><input type="checkbox" />Wheat</li>
+              <li><input type="checkbox" />White</li>
+              <li><input type="checkbox" />Rye</li>
+              <li><input type="checkbox" />Buttermilk</li>
+              <li><input type="checkbox" />Multigrain</li>
+              <li><input type="checkbox" />Sourdough</li>
+            </ul>
+          </li>
+          <li>
+            Choose your Condiments:
+            <ul class="choose-one">
+              <li><input type="checkbox" />Mayonnaise</li>
+              <li><input type="checkbox" />Chipotle Mayonnaise</li>
+              <li><input type="checkbox" />Yellow Mustard</li>
+              <li><input type="checkbox" />Dijon Mustard</li>
+              <li><input type="checkbox" />Ketchup</li>
+              <li><input type="checkbox" />Barbecue Sauce</li>
+              <li><input type="checkbox" />Horseradish Sauce</li>
+              <li><input type="checkbox" />None</li>
+            </ul>
+          </li>
+          <li>
+            Choose your Meat (Protein):
+            <ul class="choose-one">
+              <li><input type="checkbox" />Ham</li>
+              <li><input type="checkbox" />Bacon</li>
+              <li><input type="checkbox" />Turkey</li>
+              <li><input type="checkbox" />Pastrami</li>
+              <li><input type="checkbox" />Salami</li>
+              <li><input type="checkbox" />Roast Beef</li>
+              <li><input type="checkbox" />Chicken</li>
+              <li><input type="checkbox" />Tuna</li>
+              <li><input type="checkbox" />None</li>
+            </ul>
+          </li>
+          <li>
+            Choose your Cheese (Dairy):
+            <ul class="choose-one">
+              <li><input type="checkbox" />Cheddar</li>
+              <li><input type="checkbox" />American</li>
+              <li><input type="checkbox" />Swiss</li>
+              <li><input type="checkbox" />Gouda</li>
+              <li><input type="checkbox" />Havarti</li>
+              <li><input type="checkbox" />Provolone</li>
+              <li><input type="checkbox" />Pepperjack</li>
+              <li><input type="checkbox" />Colby Jack</li>
+              <li><input type="checkbox" />None</li>
+            </ul>
+          </li>
+          <li>
+            Additional Toppings:
+            <ul class="choose-one">
+              <li><input type="checkbox" />Pickles</li>
+              <li><input type="checkbox" />Lettuce</li>
+              <li><input type="checkbox" />Spinach</li>
+              <li><input type="checkbox" />Tomato</li>
+              <li><input type="checkbox" />Onion</li>
+              <li><input type="checkbox" />Banana Peppers</li>
+              <li><input type="checkbox" />Avocado</li>
+              <li><input type="checkbox" />None</li>
+            </ul>
+          </li>
+          <li>Comments:</li>
+          <textarea>Add any comments for your order.</textarea>
+        </ol>
+      </section>
+      <section>
+        <h4>Menu</h4>
+        <ol class="choose-one">
+          <li>
+            <input type="checkbox" />Classic Ham And Cheese - $5.99
+            <p>
+              Buttermilk Bread with Lettuce, Tomato, Cheddar Cheese and Black
+              Forest Honey Ham, Toasted.
+            </p>
+            <img
+              class="ham"
+              src="https://images.unsplash.com/photo-1567234669013-216f3a40e02e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+            />
+          </li>
+          <li>
+            <input type="checkbox" />Turkey Melt - $5.99
+            <p>
+              Oven-Roasted Turkey Breast and Mesquite Turkey Breast with
+              Pepperjack Cheese on Rye Bread, Grilled.
+            </p>
+            <img
+              class="ham"
+              src="https://images.unsplash.com/photo-1590076862697-0324a3938545?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80"
+            />
+          </li>
+          <li>
+            <input type="checkbox" />Italian Cold-Cut - $5.99
+            <p>
+              Pastrami, Salami, Provolone Cheese, Banana Peppers, Onion, Tomato
+              and Spinach on White Bread.
+            </p>
+            <img
+              class="ham"
+              src="https://images.unsplash.com/photo-1550507992-eb63ffee0847?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+            />
+          </li>
+        </ol>
+      </section>
+      <section>
+        <h4>Sides</h4>
+        <ol class="choose-one">
+          <li><input type="checkbox" />Choice of Chips - $1.99</li>
+          <li><input type="checkbox" />Unsalted Cashews - $1.99</li>
+          <li><input type="checkbox" />Dried Fruit - $1.99</li>
+          <li><input type="checkbox" />French Fries - $2.99</li>
+          <li><input type="checkbox" />Fresh Fruit - $2.99</li>
+          <li><input type="checkbox" />Carrots and Celery - $2.99</li>
+        </ol>
+      </section>
+      <button id="submit">Place Your Order</button>
     </main>
     <footer id="footer">
-        <div>
-            <ul id="footer-nav1">
-                <li><a href="#">Recipes</a></li>
-                <li><a href="#">Nutrition Chart</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Locations</a></li>
-                <li><a href="#">Reviews</a></li>
-            </ul>
-            <ul id="footer-nav2">
-                <li><a href="#">News</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Development</a></li>
-                <li><a href="#">Affiliates</a></li>
-                <li><a href="#">Outreach Foundations</a></li>
-            </ul>
-            <ul id="footer-nav3">
-                <li><a href="#">Mission Statement</a></li>
-                <li><a href="#">Terms of Service</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Standards & Regulations</a></li>
-                <li><a href="#">BBB Rating</a></li>
-            </ul>
+      <div class="footer-div">
+        <div id="grid-div">
+          <ul id="footer-nav1">
+            <li><a href="#">Recipes</a></li>
+            <li><a href="#">Nutrition Chart</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Reviews</a></li>
+        </ul>
+        <ul id="footer-nav2">
+            <li><a href="#">News</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Development</a></li>
+            <li><a href="#">Affiliates</a></li>
+            <li><a href="#">Outreach Foundations</a></li>
+        </ul>
+        <ul id="footer-nav3">
+            <li><a href="#">Mission Statement</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Standards & Regulations</a></li>
+            <li><a href="#">BBB Rating</a></li>
+        </ul>
         </div>
-        <div>&copy; 2020 Webdev Student (Dean Wilcoxson)</div>
-    </footer>
+        </div>
+        </footer>
+        <div id="div">&copy; 2020 Webdev Student (Dean Wilcoxson)</div>
 </body>
 
 </html>
