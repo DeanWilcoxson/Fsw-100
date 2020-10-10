@@ -9,6 +9,7 @@ body {
 }
 
 * {
+    color: #1D37F5;
     font-family: "Croissant One";
 }
 
@@ -106,6 +107,7 @@ body {
     }
     .ham {
         width: 60%;
+        border-radius: 20px;
     }
     .choose-one {
         list-style-type: none;
@@ -271,6 +273,7 @@ body {
     }
     .ham {
         width: 50%;
+        border-radius: 20px;
     }
     #submit {
         color: blue;
@@ -432,6 +435,7 @@ body {
     }
     .ham {
         width: 35%;
+        border-radius: 20px;
     }
     .choose-one {
         list-style-type: none;
@@ -592,6 +596,7 @@ body {
     }
     .ham {
         width: 40%;
+        border-radius: 20px;
     }
     .choose-one {
         list-style-type: none;
