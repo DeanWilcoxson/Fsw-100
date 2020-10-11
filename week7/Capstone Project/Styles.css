@@ -607,6 +607,35 @@ body {
     .choose-one {
         list-style-type: none;
     }
+    #create-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    #grid-item1 {
+        grid-column: 1/2;
+        grid-row: 1/2
+    }
+    #grid-item2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    #grid-item3 {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    #grid-item4 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    #grid-item5 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    #grid-item6 {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
     /*------------------------------------Footer-------------------------------------------*/
     #footer {
         grid-column: 1/5;

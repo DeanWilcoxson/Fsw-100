@@ -33,10 +33,10 @@
     <main id="main">
       <section>
         <h4>Create Your Own</h4>
-        <ol>
-          Choose at least one each:
-          <li>
-            Choose your Bread (Carbohydrates):
+        <p> Choose at least one each:</p>
+        <ol id="create-grid">
+          <li id="grid-item1">
+            Choose your <b>Bread</b> (Carbohydrates):
             <ul class="choose-one">
               <li><input type="checkbox" />Wheat</li>
               <li><input type="checkbox" />White</li>
@@ -46,8 +46,8 @@
               <li><input type="checkbox" />Sourdough</li>
             </ul>
           </li>
-          <li>
-            Choose your Condiments:
+          <li id="grid-item2">
+            Choose your <b>Condiments</b>:
             <ul class="choose-one">
               <li><input type="checkbox" />Mayonnaise</li>
               <li><input type="checkbox" />Chipotle Mayonnaise</li>
@@ -59,8 +59,8 @@
               <li><input type="checkbox" />None</li>
             </ul>
           </li>
-          <li>
-            Choose your Meat (Protein):
+          <li id="grid-item3">
+            Choose your <b>Meat</b> (Protein):
             <ul class="choose-one">
               <li><input type="checkbox" />Ham</li>
               <li><input type="checkbox" />Bacon</li>
@@ -73,8 +73,8 @@
               <li><input type="checkbox" />None</li>
             </ul>
           </li>
-          <li>
-            Choose your Cheese (Dairy):
+          <li id="grid-item4">
+            Choose your <b>Cheese</b> (Dairy):
             <ul class="choose-one">
               <li><input type="checkbox" />Cheddar</li>
               <li><input type="checkbox" />American</li>
@@ -87,8 +87,8 @@
               <li><input type="checkbox" />None</li>
             </ul>
           </li>
-          <li>
-            Additional Toppings:
+          <li id="grid-item5">
+            Additional <b>Toppings</b>:
             <ul class="choose-one">
               <li><input type="checkbox" />Pickles</li>
               <li><input type="checkbox" />Lettuce</li>
@@ -100,14 +100,14 @@
               <li><input type="checkbox" />None</li>
             </ul>
           </li>
-          <li>Comments:</li>
-          <textarea>Add any comments for your order.</textarea>
+          <li id="grid-item6"><b>Comments</b>:</li>
+          <textarea id="grid-item6">Add any comments for your order.</textarea>
         </ol>
       </section>
       <section>
         <h4>Menu</h4>
-        <ol class="choose-one">
-          <li>
+        <ol id="create-grid" class="choose-one">
+          <li id="grid-item1">
             <input type="checkbox" />Classic Ham And Cheese - $5.99
             <p>
               Buttermilk Bread with Lettuce, Tomato, Cheddar Cheese and Black
@@ -118,7 +118,7 @@
               src="https://images.unsplash.com/photo-1567234669013-216f3a40e02e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
             />
           </li>
-          <li>
+          <li id="grid-item2">
             <input type="checkbox" />Turkey Melt - $5.99
             <p>
               Oven-Roasted Turkey Breast and Mesquite Turkey Breast with
@@ -129,7 +129,7 @@
               src="https://images.unsplash.com/photo-1590076862697-0324a3938545?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80"
             />
           </li>
-          <li>
+          <li id="grid-item3">
             <input type="checkbox" />Italian Cold-Cut - $5.99
             <p>
               Pastrami, Salami, Provolone Cheese, Banana Peppers, Onion, Tomato
@@ -140,17 +140,43 @@
               src="https://images.unsplash.com/photo-1550507992-eb63ffee0847?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
             />
           </li>
+          <li id="grid-item4">
+            <input type="checkbox" />Chicken Salad - $5.99
+            <p>
+              A healthy choice for those whom prefer not to eat bread(carbohydrates). Grilled Chicken with Fresh Romaine Lettuce, Corn off the Cob, 2 Boiled Eggs, Cucumber, Tomato, and Radish. Topped with your choice of Dressing. 
+            </p>
+            <img class="ham"
+              src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"/>
+          </li>
+          <li id="grid-item5">
+            <input type="checkbox" />Classic Ham And Cheese - $5.99
+            <p>
+              Buttermilk Bread with Lettuce, Tomato, Cheddar Cheese and Black
+              Forest Honey Ham, Toasted.
+            </p>
+            <img class="ham"
+              src="https://images.unsplash.com/photo-1567234669013-216f3a40e02e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" />
+          </li>
+          <li id="grid-item6">
+            <input type="checkbox" />Classic Ham And Cheese - $5.99
+            <p>
+              Buttermilk Bread with Lettuce, Tomato, Cheddar Cheese and Black
+              Forest Honey Ham, Toasted.
+            </p>
+            <img class="ham"
+              src="https://images.unsplash.com/photo-1567234669013-216f3a40e02e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" />
+          </li>
         </ol>
       </section>
       <section>
         <h4>Sides</h4>
-        <ol class="choose-one">
-          <li><input type="checkbox" />Choice of Chips - $1.99</li>
-          <li><input type="checkbox" />Unsalted Cashews - $1.99</li>
-          <li><input type="checkbox" />Dried Fruit - $1.99</li>
-          <li><input type="checkbox" />French Fries - $2.99</li>
-          <li><input type="checkbox" />Fresh Fruit - $2.99</li>
-          <li><input type="checkbox" />Carrots and Celery - $2.99</li>
+        <ol id="create-grid" class="choose-one">
+          <li id="grid-item1"><input type="checkbox" />Choice of Chips - $1.99</li>
+          <li id="grid-item2"><input type="checkbox" />Unsalted Cashews - $1.99</li>
+          <li id="grid-item6"><input type="checkbox" />Dried Fruit - $1.99</li>
+          <li id="grid-item4"><input type="checkbox" />French Fries - $2.99</li>
+          <li id="grid-item5"><input type="checkbox" />Fresh Fruit - $2.99</li>
+          <li id="grid-item3"><input type="checkbox" />Carrots and Celery - $2.99</li>
         </ol>
       </section>
       <button id="submit">Place Your Order</button>
