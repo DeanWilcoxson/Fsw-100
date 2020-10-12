@@ -582,6 +582,9 @@ body {
         background-color: rgba(255, 255, 255, 0.746);
         font-size: 18px;
     }
+    #submit a:hover {
+        font-size: 28px;
+    }
     #main {
         grid-column: 1/5;
     }
